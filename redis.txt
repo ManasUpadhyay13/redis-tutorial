@@ -1,0 +1,3 @@
+docker run -d --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-stack:latest
+
+command to run redis docker , 6379 is redis port , and 8001 is stack ( docker gui ) port
