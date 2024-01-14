@@ -9,3 +9,10 @@ async function listTut() {
 }
 
 listTut()
+
+
+/*
+blpop -> removes a message from the head ( left side ) and if the list is empty then it waits for the given time period
+and then returns nil
+
+*/
